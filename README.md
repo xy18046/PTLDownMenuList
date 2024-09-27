@@ -1,6 +1,14 @@
 # PTLDownMenuList
 ### 下拉列表
 #### 简单用法
+
+###### 演示
+
+<iframe height=500 width=500 src="http://www.code4app.com/data/attachment/forum/201711/24/143200kj6jp46z6ytqrhon.gif">
+ 
+ ---
+![演示](http://www.code4app.com/data/attachment/forum/201711/24/143200kj6jp46z6ytqrhon.gif)
+
 ```
 PTLMenuButton *btn = [[PTLMenuButton alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 40) menuTitles:@[@"科室",@"排序"]];
     NSArray * listArr1 = @[@"全科",@"妇产科",@"儿科",@"内科",@"外科",@"中医科",@"口腔科",@"耳科",@"耳鼻喉科"];
